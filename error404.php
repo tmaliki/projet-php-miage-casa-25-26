@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Qui sommes-nous ? - Bootstrap Shop</title>
+    <title>Erreur 404 - Bootstrap Shop</title>
 
     <!-- favicon -->
     <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico">
@@ -24,9 +24,9 @@
     <!-- start section -->
     <section class="py-5">
         <div class="container px-4 px-lg-5 mt-5">
-            <h1 class="fw-bolder">Qui sommes-nous ?</h1>
-            <p class="lead">Nous sommes une boutique en ligne dédiée à la vente de produits de haute qualité.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis blanditiis explicabo commodi, cupiditate, animi dignissimos corporis obcaecati eos tenetur deleniti, odio vitae neque! Sequi reiciendis quo mollitia, numquam consequuntur iste.</p>
+            <h1 class="fw-bolder">Erreur 404</h1>
+            <p class="lead">Désolé, la page que vous recherchez n'existe pas.</p>
+            <p>Veuillez vérifier l'URL ou retourner à la page d'accueil.</p>
         </div>
     </section>
     <!-- end section -->

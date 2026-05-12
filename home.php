@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bootstrap Shop</title>
+    <title>Page d'accueil - Bootstrap Shop</title>
 
     <!-- favicon -->
     <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico">
@@ -14,65 +15,10 @@
     <!-- bootstrap icons -->
     <link rel="stylesheet" href="./assets/css/bootstrap-icons.css">
 </head>
+
 <body>
     <!-- start navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container px-4 px-lg-5">
-            <a href="#" class="navbar-brand">Bootstrap Shop</a>
-
-            <button 
-                class="navbar-toggler" 
-                type="button" 
-                data-bs-toggle="collapse" 
-                data-bs-target="#navbarSupportContent" 
-                aria-expanded="false" 
-                aria-label="Toggle navigation"
-            >
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarSupportContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
-                    <li class="nav-item">
-                        <a href="#" class="nav-link active">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">About</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a 
-                            href="#" 
-                            class="nav-link dropdown-toggle" 
-                            id="navbarDropdown" 
-                            role="button"
-                            data-bs-toggle="dropdown"
-                            aria-expanded="false"
-                        >
-                            Shop
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li>
-                                <a href="#" class="dropdown-item">All Products</a>
-                            </li>
-                            <li>
-                                <a href="#" class="dropdown-item">Popular Items</a>
-                            </li>
-                            <li>
-                                <a href="#" class="dropdown-item">New Arrivals</a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-
-                <form class="d-flex">
-                    <button class="btn btn-outline-primary" type="submit">
-                        <i class="bi-cart-fill me-1"></i> Mon panier
-                        <span class="badge bg-dark text-white ms-1 rounded-pill">0</span>
-                    </button>
-                </form>
-            </div>
-        </div>
-    </nav>
+    <?php include 'navbar.php'; ?>
     <!-- end navigation -->
 
     <!-- start header -->
@@ -94,7 +40,7 @@
                     <div class="card h-100">
                         <!-- product image-->
                         <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
-                        
+
                         <!-- product details-->
                         <div class="card-body p-4">
                             <div class="text-center">
@@ -119,10 +65,10 @@
                     <div class="card h-100">
                         <!-- sale badge-->
                         <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
-                        
+
                         <!-- product image-->
                         <img class="card-img-top" src="https://picsum.photos/450/300" alt="..." />
-                        
+
                         <!-- product details-->
                         <div class="card-body p-4">
                             <div class="text-center">
@@ -159,7 +105,7 @@
                     <div class="card h-100">
                         <!-- sale badge-->
                         <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
-                        
+
                         <!-- product image-->
                         <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
 
@@ -355,16 +301,11 @@
     <!-- end section -->
 
     <!-- start footer -->
-    <footer class="py-5 bg-dark">
-        <div class="container">
-            <p class="m-0 text-center text-white">
-                Copyright &copy; Your Website 2026
-            </p>
-        </div>
-    </footer>
+    <?php include 'footer.php'; ?>
     <!-- end footer -->
 
     <!-- bootstrap bundle js -->
     <script src="./assets/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>

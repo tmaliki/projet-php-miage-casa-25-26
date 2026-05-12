@@ -10,4 +10,8 @@
         case 'about':
             require 'about.php';
             break;
+
+        default:
+            require 'error404.php';
+            break;
     }
